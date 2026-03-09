@@ -109,7 +109,7 @@ PyMuPDF==1.27.1
 pypdf==6.7.5
 PyPika==0.51.1
 pyproject_hooks==1.2.0
-python-bidi==0.6.7
+python-bidi==0.4.2
 python-dateutil==2.9.0.post0
 python-dotenv==1.2.2
 pytz==2026.1.post1
