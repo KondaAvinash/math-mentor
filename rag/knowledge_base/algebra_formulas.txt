@@ -1,0 +1,52 @@
+# Algebra Formulas & Identities
+
+## Arithmetic Progression (AP)
+- nth term: a_n = a + (n-1)d
+- nth term from end: a_n = l - (n-1)d  where l = last term
+- Sum of n terms: S_n = n/2 * (2a + (n-1)d) = n/2 * (a + l)
+- Number of terms: n = (l - a)/d + 1
+- Middle term: a + (n-1)/2 * d  (when n is odd)
+
+## Geometric Progression (GP)
+- nth term: a_n = a * r^(n-1)
+- Sum of n terms: S_n = a(r^n - 1)/(r - 1)  for r ≠ 1
+- Sum to infinity: S = a/(1-r)  for |r| < 1
+- Geometric mean: GM = sqrt(a*b)
+
+## Quadratic Equations
+- Roots: x = (-b ± sqrt(b²-4ac)) / 2a
+- Sum of roots: α + β = -b/a
+- Product of roots: αβ = c/a
+- Discriminant: D = b²-4ac
+  - D > 0: two distinct real roots
+  - D = 0: two equal real roots
+  - D < 0: two complex roots
+
+## Binomial Theorem
+- (a+b)^n = Σ C(n,r) * a^(n-r) * b^r
+- General term: T_(r+1) = C(n,r) * a^(n-r) * b^r
+- Middle term: T_(n/2 + 1) when n is even
+
+## Algebraic Identities
+- (a+b)² = a² + 2ab + b²
+- (a-b)² = a² - 2ab + b²
+- (a+b)³ = a³ + 3a²b + 3ab² + b³
+- a²-b² = (a+b)(a-b)
+- a³-b³ = (a-b)(a²+ab+b²)
+- a³+b³ = (a+b)(a²-ab+b²)
+
+## Logarithms
+- log(mn) = log m + log n
+- log(m/n) = log m - log n
+- log(m^n) = n log m
+- log_a(b) = log(b)/log(a)  (change of base)
+- log_a(a) = 1
+- log_a(1) = 0
+
+## Sequences and Series
+- Sum of first n natural numbers: n(n+1)/2
+- Sum of squares: n(n+1)(2n+1)/6
+- Sum of cubes: [n(n+1)/2]²
+- Arithmetic mean: AM = (a+b)/2
+- Harmonic mean: HM = 2ab/(a+b)
+- AM ≥ GM ≥ HM (for positive numbers)

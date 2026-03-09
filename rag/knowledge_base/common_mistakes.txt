@@ -1,0 +1,33 @@
+# Common JEE Math Mistakes & Pitfalls
+
+## Arithmetic Progression
+- MISTAKE: Using a_n = a + nd instead of a + (n-1)d
+- CORRECT: nth term = a + (n-1)d  (n starts from 1)
+- MISTAKE: nth term from end = l + (n-1)d
+- CORRECT: nth term from end = l - (n-1)d  (going backwards, subtract)
+- MISTAKE: Forgetting to find number of terms before sum
+- Always verify: l = a + (n-1)d to find n first
+
+## Probability
+- MISTAKE: P(A and B) = P(A) + P(B)
+- CORRECT: P(A and B) = P(A) * P(B) for independent events
+- MISTAKE: Forgetting to check if events are mutually exclusive
+- Always check: can both events happen simultaneously?
+
+## Quadratic
+- MISTAKE: Sum of roots = b/a (missing negative sign)
+- CORRECT: Sum of roots = -b/a
+- MISTAKE: Using discriminant b²+4ac
+- CORRECT: Discriminant = b²-4ac
+
+## Calculus
+- MISTAKE: Forgetting +C in indefinite integration
+- MISTAKE: d/dx(sin x) = -cos x
+- CORRECT: d/dx(sin x) = cos x (negative is for cos)
+- MISTAKE: Chain rule forgotten for composite functions
+
+## General
+- Always check if answer matches given MCQ options
+- Verify units and domains (log needs positive argument)
+- Check edge cases (n=1, x=0, etc.)
+- Re-read the question — "from end" vs "from beginning"

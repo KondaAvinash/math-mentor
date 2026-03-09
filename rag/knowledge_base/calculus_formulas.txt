@@ -1,0 +1,33 @@
+# Calculus Formulas
+
+## Limits
+- lim(x→0) sin(x)/x = 1
+- lim(x→0) (1 + x)^(1/x) = e
+- lim(x→∞) (1 + 1/x)^x = e
+- lim(x→0) (e^x - 1)/x = 1
+- lim(x→0) log(1+x)/x = 1
+- L'Hopital's rule: lim f(x)/g(x) = lim f'(x)/g'(x) for 0/0 or ∞/∞ forms
+
+## Derivatives
+- d/dx (x^n) = n*x^(n-1)
+- d/dx (e^x) = e^x
+- d/dx (ln x) = 1/x
+- d/dx (sin x) = cos x
+- d/dx (cos x) = -sin x
+- d/dx (tan x) = sec²x
+- d/dx (uv) = u'v + uv'  (product rule)
+- d/dx (u/v) = (u'v - uv') / v²  (quotient rule)
+- Chain rule: d/dx f(g(x)) = f'(g(x)) * g'(x)
+
+## Integration
+- ∫ x^n dx = x^(n+1)/(n+1) + C
+- ∫ e^x dx = e^x + C
+- ∫ 1/x dx = ln|x| + C
+- ∫ sin x dx = -cos x + C
+- ∫ cos x dx = sin x + C
+- ∫ sec²x dx = tan x + C
+
+## Applications
+- Maxima: f'(x) = 0 and f''(x) < 0
+- Minima: f'(x) = 0 and f''(x) > 0
+- Rate of change: dy/dx

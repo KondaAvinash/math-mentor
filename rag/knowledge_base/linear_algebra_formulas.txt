@@ -1,0 +1,35 @@
+# Linear Algebra Formulas
+
+## Matrices
+- Matrix addition: (A+B)_ij = A_ij + B_ij
+- Matrix multiplication: (AB)_ij = Σ A_ik * B_kj
+- Transpose: (A^T)_ij = A_ji
+- (AB)^T = B^T * A^T
+
+## Determinants
+- det of 2x2: |a b; c d| = ad - bc
+- det of 3x3: expand along first row
+- det(AB) = det(A) * det(B)
+- det(A^T) = det(A)
+- If row/col of zeros: det = 0
+- Singular matrix: det = 0
+
+## Inverse
+- A^(-1) = adj(A) / det(A)
+- AA^(-1) = I
+- (AB)^(-1) = B^(-1) * A^(-1)
+- Inverse exists only if det(A) ≠ 0
+
+## Systems of Equations (Cramer's Rule)
+- AX = B
+- x = det(Ax)/det(A), y = det(Ay)/det(A)
+
+## Eigenvalues
+- det(A - λI) = 0
+- Sum of eigenvalues = trace(A)
+- Product of eigenvalues = det(A)
+
+## Vectors
+- Dot product: a·b = |a||b|cos θ
+- Cross product magnitude: |a×b| = |a||b|sin θ
+- Unit vector: â = a/|a|

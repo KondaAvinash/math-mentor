@@ -1,0 +1,36 @@
+# Probability Formulas
+
+## Basic Probability
+- P(A) = favorable outcomes / total outcomes
+- 0 ≤ P(A) ≤ 1
+- P(A') = 1 - P(A)  (complement)
+- P(A ∪ B) = P(A) + P(B) - P(A ∩ B)
+- P(A ∩ B) = P(A) * P(B)  (if independent)
+
+## Conditional Probability
+- P(A|B) = P(A ∩ B) / P(B)
+- Bayes theorem: P(A|B) = P(B|A)*P(A) / P(B)
+
+## Permutations and Combinations
+- nPr = n! / (n-r)!
+- nCr = n! / (r! * (n-r)!)
+- nC0 = nCn = 1
+- nCr = nC(n-r)
+- nCr + nC(r-1) = (n+1)Cr
+
+## Binomial Distribution
+- P(X=r) = nCr * p^r * q^(n-r)  where q = 1-p
+- Mean = np
+- Variance = npq
+- Standard deviation = sqrt(npq)
+
+## Important Results
+- Total ways to arrange n items = n!
+- Circular arrangements = (n-1)!
+- Arrangements with repetition = n^r
+- Combinations with repetition = C(n+r-1, r)
+
+## Dice and Cards
+- Total outcomes with 2 dice = 36
+- Total cards in deck = 52 (13 each suit, 4 suits)
+- Face cards = 12 (J, Q, K in 4 suits)
